@@ -20,6 +20,8 @@ if ($answer == "yes") {
 
     // Send the email
     mail($to, $subject, $message, $headers);
+
+    header("Location: yes.php");
 }
 
 else if ($answer == "no") {
