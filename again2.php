@@ -56,8 +56,7 @@
                 <div class="col-lg-8 offset-lg-2 my-auto">
                     <div class="page-breadcumb">
                         <!-- <p>Dear</p> -->
-                        <h2>Yayyyyyyy!!!!</h2>
-                        
+                        <h2>Dear Rose Ejikeme</h2>
                     </div>
                 </div>
             </div>
@@ -77,23 +76,24 @@
                 <div class="col-md-12">
                     <div class="latest-posts-widget widget widget-rsvp wow fadeIn">
                         <div class="ft-about-content">
-                            <center>
-                                <img src="images/val-dance.gif">
-                            </center>
-                            <br>
-                            <br>
-                            <h2 style="text-align: center;">Thanks for being my val</h2>
+                            <h2 style="text-align: center;">Rose, will you be my Valentine and fill my heart with joy?</h2>
                             <hr>
+                            <h4 class="widget-title cursive">Please be my Valentine</h4>
                             
-                           <!-- <div class="" style="text-align: center;">
+                           <div class="" style="text-align: center;">
 
-                            <a href="#" class="button-76" role="button">Yes I will</a>
-                            <br>
-                            <br>
-                            <br>
-                            <a href="#" style="color: black;" role="button">no</a>
+                            <form action="yes-processor.php">
+                               <button type="submit" class="button-76" role="button" style="font-size:40px; !important; padding: 30px;">Yes</button>
+                           </form>
+                           
+                           <br>
+                           <br>
+                           
+                           <form action="no-processor.php">
+                               <button type="submit" role="button" style="font-size:10px; background: #fff; border: 0px;">no</button>
+                           </form>
                             
-                           </div> -->
+                           </div>
 
                         </div>
                     </div>

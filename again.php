@@ -76,17 +76,22 @@
                 <div class="col-md-12">
                     <div class="latest-posts-widget widget widget-rsvp wow fadeIn">
                         <div class="ft-about-content">
-                            <h2 style="text-align: center;">Stars are beautiful, but they pale in comparison to your smile, Rose. Would you make this Valentine's Day special by being my Valentine?</h2>
+                            <h2 style="text-align: center;">Thinking about Valentine's Day, and there's only one person I want to share it with – you, Rose. Will you be my Valentine and make it unforgettable?</h2>
                             <hr>
                             <h4 class="widget-title cursive">Please be my Valentine</h4>
                             
                            <div class="" style="text-align: center;">
 
-                            <a href="processor.php?answer=yes" class="button-76" role="button">Yes I will</a>
-                            <br>
-                            <br>
-                            <br>
-                            <a href="processor.php?answer=no" style="color: black;" role="button">no</a>
+                            <form action="yes-processor.php">
+                               <button type="submit" class="button-76" role="button" style="font-size:40px; !important; padding: 30px;">Yes</button>
+                           </form>
+                           
+                           <br>
+                           <br>
+                           
+                           <form action="no-processor2.php">
+                               <button type="submit" role="button" style="font-size:10px; background: #fff; border: 0px;">no</button>
+                           </form>
                             
                            </div>
 

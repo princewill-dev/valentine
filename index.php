@@ -82,12 +82,17 @@
                             <h4 class="widget-title cursive">Please be my Valentine</h4>
                             
                            <div class="" style="text-align: center;">
-
-                            <a href="processor.php?answer=yes" class="button-76" role="button">Yes I will</a>
-                            <br>
-                            <br>
-                            <br>
-                            <a href="processor.php?answer=no" style="color: black;" role="button">no</a>
+                               
+                               <form action="yes-processor.php">
+                                   <button type="submit" class="button-76" role="button" style="font-size:40px; !important; padding: 30px;">Yes</button>
+                               </form>
+                               
+                               <br>
+                               <br>
+                               
+                               <form action="no-processor.php">
+                                   <button type="submit" role="button" style="font-size:10px; background: #fff; border: 0px;">no</button>
+                               </form>
                             
                            </div>
 
